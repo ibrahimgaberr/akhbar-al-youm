@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-image: url(img/Young\ people\ walking\ in\ front\ of\ college\ or\ university\ 1.png);
+    background-size: cover;
+    background-position: center;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    bottom: 0;
+    left: 0;
+    background-color: #227BA0;
+}
+.footer img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 244px;
+    margin-left: 635px;
+    margin-top: 25px;
+}
+.footer h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 130px;
+}
+.table{
+    position: absolute;
+    width: 90%;
+    color: #fff;
+    background-color: #072a38;
+    text-transform: uppercase;
+    opacity: 70%;
+    margin-left: 5%;
+    top: 200px;
+}
+.dropdown{
+    position: absolute;
+    left: 590px;
+    top: 70px;
+    box-sizing: border-box;
+}
+.select{
+    background: #072a38;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px #072a38 solid;
+    border-radius: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+} 
+.select-clicked {
+    border: 2px #fff solid;
+    box-sizing: 0 0 0.8em #fff;
+}
+.select:hover {
+    background: #072a38;
+}
+.caret{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+    transition: 0.3s;
+}
+.caret-rotate{
+    transform: rotate(180deg);
+}
+.menu{
+    list-style: none;
+    padding: 0.2em 0.5em;
+    background: #fff;
+    border: 1px #fff solid;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    color: #072a38;
+    position: absolute;
+    top: 3em;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    display:none;
+    transition: 0.2s;
+    z-index: 1;
+}
+.menu li {
+padding: 0.7em 0.5em;
+margin: 0.3em 0;
+border-radius: 0.5em;
+cursor: pointer;
+}
+.menu li:hover{
+    background: #072a38;
+}
+.active {
+    background: #072a38;
+}
+.menu-open {
+    display: block;
+    opacity: 1;
+}

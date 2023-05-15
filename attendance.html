@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta>
+        <link href="bootstrap-5.3.0-alpha3-dist/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="attendance.css">
+<meta name="viewport" content="width=device-width,initial-scale,shrink-to-fit=no">
+
+    </head>
+    <body>
+
+      <!--start of dropdown-->
+      <!-- <div class="dropdown">
+        <div class="select">
+        <span class="selected">cours</span>
+        <div class="caret"></div>
+        </div>
+       </div>
+      <ul class="menu">
+        <li>Ai</li>
+        <li>Datastructure</li>
+        <li>Network</li>
+        <li class="active">cours</li>
+      </ul> -->
+      <select onchange="handleChange(this.value)">
+        <option>course</option>
+        <option>AI</option>
+        <option>Datastructure</option>
+
+        <option>Network</option>
+        
+
+      </select>
+        <!--end of dropdown-->
+  <!--start of table-->
+  <table class="table">
+    <thead>
+      <tr>
+        <td>Attendace Date</td>
+        <td>Attendance</td>
+
+      </tr>
+    </thead>
+    <tbody class="tableBody">
+      <tr>
+ 
+      </tr>
+      <!--<tr>
+        <th scope="row">1</th>
+        <td>10/4/2023</td>
+        <td></td>
+        <td>attend</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>14/5/2023</td>
+        <td>Not attend</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>23/5/2023</td>
+        <td></td>
+        <td>attend</td>
+      </tr>-->
+    </tbody>
+  </table>
+  <!--end of table-->
+  <!-- Start footer -->
+  <div class="footer">
+    <img src="img/image 2.jpg" alt="image" />
+    <h3>Call Us For Support</h3>
+  </div>
+  <!-- End footer -->
+
+  <div class="imgbackground"></div>
+
+  <script src="bootstrap-5.3.0-alpha3-dist/jquery-3.4.1.min.js"></script>
+  <script src="bootstrap-5.3.0-alpha3-dist/popper.min.js"></script>
+  <script src="bootstrap-5.3.0-alpha3-dist/bootstrap.min.js"></script>
+  <script src="attendance.js"></script>
+    </body>
+</html>
